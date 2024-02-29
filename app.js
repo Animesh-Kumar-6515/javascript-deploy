@@ -13,6 +13,9 @@ app.get('/', (req, res) => {
 app.get('/animesh',(req,res)=>{
     res.send("Hi this is animesh")
 })
+app.get('/tron',(req,res)=>{
+  res.send("hi this tron from the server side")
+})
 
 app.listen(process.env.port, () => {
   console.log(`Example app listening on port ${process.env.port}`)
